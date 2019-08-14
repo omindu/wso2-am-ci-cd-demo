@@ -4,16 +4,16 @@ environments:
       production:
         url: 'https://dev.wso2.com'
         config:
-          retryTimeOut: $RETRY
+          retryTimeOut: 30
   - name: test
     endpoints:
       production:
         url: 'https://test.wso2.com'
         config:
-          retryTimeOut: $RETRY
+          retryTimeOut: 30
   - name: prod
     endpoints:
       production:
         url: 'https://prod.wso2.com'
         config:
-          retryTimeOut: $RETRY
+          retryTimeOut: 30
