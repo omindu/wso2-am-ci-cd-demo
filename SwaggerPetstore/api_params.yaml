@@ -1,19 +1,9 @@
 environments:
-  - name: dev
-    endpoints:
-      production:
-        url: 'https://dev.wso2.com'
-        config:
-          retryTimeOut: 30
-  - name: test
-    endpoints:
-      production:
-        url: 'https://test.wso2.com'
-        config:
-          retryTimeOut: 30
-  - name: prod
-    endpoints:
-      production:
-        url: 'https://prod.wso2.com'
-        config:
-          retryTimeOut: 30
+ - name: dev
+   endpoints:
+     production:
+     sandbox:
+ - name: test
+   endpoints:
+     production:
+     sandbox:

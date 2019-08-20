@@ -1,0 +1,13 @@
+id:
+  providerName: admin
+  apiName: "Petstore"
+  version: 1.0.0
+type: HTTP
+context: "/v1/1.0.0"
+availableTiers:
+- name: Unlimited
+status: PUBLISHED
+visibility: public
+transports: http,https
+productionUrl: http://www.mocky.io/v2/5d5b6da22f00005c0036faac
+sandboxUrl: http://www.mocky.io/v2/5d5b6da22f00005c0036faac
