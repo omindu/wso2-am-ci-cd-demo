@@ -1,9 +1,8 @@
 environments:
  - name: dev
    endpoints:
-     production:
+     production: http://www.mocky.io/v2/5d5ba3273200005b006289ab
      sandbox:
  - name: test
    endpoints:
-     production:
-     sandbox:
+     production: http://www.mocky.io/v2/5d5ba3013200006c006289a8
